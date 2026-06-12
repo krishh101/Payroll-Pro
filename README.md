@@ -107,7 +107,7 @@ employee-payroll-system/
 │   └── schema.sql       → All tables + sample data
 │
 └── README.md
-```
+
 
 ---
 

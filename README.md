@@ -78,15 +78,6 @@ npm start
 
 ✅ Frontend runs at: **http://localhost:3000**
 
----
-
-## 🔑 Login Credentials
-
-| Role | Email | Password |
-|------|-------|----------|
-| **Admin** | admin@payroll.com | password |
-| **HR Manager** | hr@payroll.com | password |
-| **Employee** | john@payroll.com | password |
 
 ---
 

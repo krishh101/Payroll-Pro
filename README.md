@@ -31,7 +31,7 @@
 
 ---
 
-## 🚀 Setup Instructions 
+## 🚀 Setup Instructions (Step-by-Step)
 
 ### Step 1: Database Setup
 
@@ -78,6 +78,15 @@ npm start
 
 ✅ Frontend runs at: **http://localhost:3000**
 
+---
+
+## 🔑 Login Credentials
+
+| Role | Email | Password |
+|------|-------|----------|
+| **Admin** | admin@payroll.com | password |
+| **HR Manager** | hr@payroll.com | password |
+| **Employee** | john@payroll.com | password |
 
 ---
 
@@ -107,7 +116,7 @@ employee-payroll-system/
 │   └── schema.sql       → All tables + sample data
 │
 └── README.md
-
+```
 
 ---
 
@@ -156,4 +165,27 @@ employee-payroll-system/
 
 ---
 
+## 📤 GitHub Upload Instructions
 
+```bash
+git init
+git add .
+git commit -m "Initial commit: Employee Payroll Management System"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git push -u origin main
+```
+
+> ⚠️ The `.env` files are excluded from Git (in `.gitignore`). 
+> Other developers should copy `.env.example` → `.env` and fill in their own credentials.
+
+---
+
+## 🏫 Academic Note
+
+This project demonstrates:
+- **Advanced DBMS concepts**: Normalized schema (3NF), foreign keys, indexes, views
+- **REST API design** with Express.js
+- **JWT-based stateless authentication**
+- **Role-based access control (RBAC)**
+- **Full-stack integration**: React ↔ Node.js ↔ MySQL
